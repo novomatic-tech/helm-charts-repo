@@ -1,0 +1,19 @@
+
+
+install:
+  # Installing Chartmuseum
+  - curl -LO https://s3.amazonaws.com/chartmuseum/release/latest/bin/linux/amd64/chartmuseum
+  - chmod +x ./chartmuseum
+  - mv ./chartmuseum /usr/local/bin
+  
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: .travis/gen-index.sh
+    on:
+      branch: master
+  - provider: script
+    skip_cleanup: true
+    script: .travis/commit-index.sh
+    on:
+      branch: master
