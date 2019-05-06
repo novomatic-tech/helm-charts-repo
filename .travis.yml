@@ -4,7 +4,6 @@ install:
   # Installing Chartmuseum
   - curl -LO https://s3.amazonaws.com/chartmuseum/release/latest/bin/linux/amd64/chartmuseum
   - chmod +x ./chartmuseum
-  - mv ./chartmuseum /usr/local/bin
   
 deploy:
   - provider: script

@@ -2,7 +2,7 @@
 
 set -e
 
-index=`chartmuseum --gen-index --storage local --disable-statefiles --storage-local-rootdir .`
+index=`./chartmuseum --gen-index --storage local --disable-statefiles --storage-local-rootdir .`
 
 echo "[index.yaml]"
 echo "$index"
