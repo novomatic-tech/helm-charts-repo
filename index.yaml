@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   elasticsearch-proxy:
   - appVersion: 0.0.1-gc4e015b
-    created: "2019-05-06T15:55:34.754643811Z"
+    created: "2019-05-06T15:56:51.427937951Z"
     description: Elasticsearch Proxy
     digest: f405deb4d8ffd6e87dbb8d1b8d38e56447e45379f0a3e6dd80e533bfa2175edb
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -19,7 +19,7 @@ entries:
     - charts/elasticsearch-proxy-0.0.1-gc4e015b.tgz
     version: 0.0.1-gc4e015b
   - appVersion: 0.0.1-g6d30bca
-    created: "2019-05-06T15:55:34.754643811Z"
+    created: "2019-05-06T15:56:51.427937951Z"
     description: Elasticsearch Proxy
     digest: bd4bcda825c90de4d8d2853b00c86e8f5cfa0f8b2d27562d4c73ca15d1114367
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -35,5 +35,5 @@ entries:
     urls:
     - charts/elasticsearch-proxy-0.0.1-g6d30bca.tgz
     version: 0.0.1-g6d30bca
-generated: "2019-05-06T15:55:44Z"
+generated: "2019-05-06T15:57:02Z"
 serverInfo: {}
