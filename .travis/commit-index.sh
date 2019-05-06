@@ -12,5 +12,5 @@ cd publish
 git add index.yaml
 git config user.name  "Travis"
 git config user.email "travis@travis-ci.org"
-git commit -m "[ci-skip] Update index.yaml file."
+git commit -m "[skip travis] Update index.yaml file."
 git push origin $PUBLICATION_BRANCH 2>&1 > /dev/null
