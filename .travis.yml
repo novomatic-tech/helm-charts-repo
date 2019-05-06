@@ -1,10 +1,10 @@
-language: ruby
+language: generic
 
 install:
   # Installing Chartmuseum
   - curl -LO https://s3.amazonaws.com/chartmuseum/release/latest/bin/linux/amd64/chartmuseum
   - chmod +x ./chartmuseum
-  
+
 deploy:
   - provider: script
     skip_cleanup: true
