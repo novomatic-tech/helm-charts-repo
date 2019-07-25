@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   elasticsearch-proxy:
   - appVersion: 0.0.2-ge968f8b
-    created: "2019-07-18T20:43:50.113324749Z"
+    created: "2019-07-25T09:59:16.045241786Z"
     description: Elasticsearch Proxy
     digest: 8baaeff134613011c8ee1a8da0d57e22c051c0373c6736c5e5ce1837082f17e7
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -19,7 +19,7 @@ entries:
     - charts/elasticsearch-proxy-0.0.2-ge968f8b.tgz
     version: 0.0.2-ge968f8b
   - appVersion: 0.0.2-g392eda4
-    created: "2019-07-18T20:43:50.113324749Z"
+    created: "2019-07-25T09:59:16.045241786Z"
     description: Elasticsearch Proxy
     digest: fe19a9344ec605145114ffa2c84ff5b820fff5967cebd157de7ab9d85f8d67a4
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -35,8 +35,25 @@ entries:
     urls:
     - charts/elasticsearch-proxy-0.0.2-g392eda4.tgz
     version: 0.0.2-g392eda4
+  - appVersion: 0.0.2-g064a07e
+    created: "2019-07-25T09:59:16.045241786Z"
+    description: Elasticsearch Proxy
+    digest: f72a33db11d22a233587fcf036ac035c91a7b1bec129805a7b11081444840a0f
+    home: https://github.com/novomatic-tech/elasticsearch-proxy
+    icon: https://static-www.elastic.co/assets/blteb1c97719574938d/logo-elastic-elasticsearch-lt.svg
+    maintainers:
+    - email: thom.nocon@gmail.com
+      name: Tomasz Nocoń
+    - email: marochm@gmail.com
+      name: Marek Chmiel
+    name: elasticsearch-proxy
+    sources:
+    - https://github.com/novomatic-tech/elasticsearch-proxy
+    urls:
+    - charts/elasticsearch-proxy-0.0.2-g064a07e.tgz
+    version: 0.0.2-g064a07e
   - appVersion: 0.0.1
-    created: "2019-07-18T20:43:50.113324749Z"
+    created: "2019-07-25T09:59:16.045241786Z"
     description: Elasticsearch Proxy
     digest: 75f8da8c359cdced4200c68450dec9cfbfdc066b515a25d9b77ccd8e3a9b4251
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -53,7 +70,7 @@ entries:
     - charts/elasticsearch-proxy-0.0.1.tgz
     version: 0.0.1
   - appVersion: 0.0.1-gc4e015b
-    created: "2019-07-18T20:43:50.113324749Z"
+    created: "2019-07-25T09:59:16.045241786Z"
     description: Elasticsearch Proxy
     digest: f405deb4d8ffd6e87dbb8d1b8d38e56447e45379f0a3e6dd80e533bfa2175edb
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -70,7 +87,7 @@ entries:
     - charts/elasticsearch-proxy-0.0.1-gc4e015b.tgz
     version: 0.0.1-gc4e015b
   - appVersion: 0.0.1-gad39ba0
-    created: "2019-07-18T20:43:50.113324749Z"
+    created: "2019-07-25T09:59:16.045241786Z"
     description: Elasticsearch Proxy
     digest: d70fef9804a5ac9579fcb5f008fdaaad8810a5a0ba704f7e3ad5cb3f8382ce40
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -87,7 +104,7 @@ entries:
     - charts/elasticsearch-proxy-0.0.1-gad39ba0.tgz
     version: 0.0.1-gad39ba0
   - appVersion: 0.0.1-g6d30bca
-    created: "2019-07-18T20:43:50.113324749Z"
+    created: "2019-07-25T09:59:16.045241786Z"
     description: Elasticsearch Proxy
     digest: bd4bcda825c90de4d8d2853b00c86e8f5cfa0f8b2d27562d4c73ca15d1114367
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -104,7 +121,7 @@ entries:
     - charts/elasticsearch-proxy-0.0.1-g6d30bca.tgz
     version: 0.0.1-g6d30bca
   - appVersion: 0.0.1-g411f708
-    created: "2019-07-18T20:43:50.113324749Z"
+    created: "2019-07-25T09:59:16.045241786Z"
     description: Elasticsearch Proxy
     digest: 6742b93880c1e0ea82e3e1081a54929e4632cb8a03f4242bf904ce0e9de7f843
     home: https://github.com/novomatic-tech/elasticsearch-proxy
@@ -120,5 +137,5 @@ entries:
     urls:
     - charts/elasticsearch-proxy-0.0.1-g411f708.tgz
     version: 0.0.1-g411f708
-generated: "2019-07-18T20:43:58Z"
+generated: "2019-07-25T09:59:22Z"
 serverInfo: {}
